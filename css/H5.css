@@ -113,6 +113,8 @@
 
 .page{
     width: 100%;
+    /* min-width: 700px; */
+    max-width: 800px!important;
     height: 100%;
     overflow: hidden;
     display: flex;
@@ -122,6 +124,9 @@
     position: absolute;
     left: 0;
     top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 6;
 }
 .page_1 img{
@@ -131,11 +136,13 @@
 
 .page_1 img:nth-child(1){
     width: 40%;
+    max-height: 220px;
     position: absolute;
     top: 94px;
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 4;
 }
 .page_1 img:nth-child(2){
     width: 40%;
@@ -145,6 +152,7 @@
     right: 0;
     bottom: 130px;
     margin: auto;
+    z-index: 3;
 }
 
 .page_1 .y{
@@ -596,18 +604,18 @@
     display: block;
     overflow: hidden}
 .page_5 .img1{
-    width: 45%;
+    width: 47.5%;
     height: 150px;
-    margin-top: 40px;
+    margin-top: 24px;
     float: left;margin-left: 2%;
     overflow: hidden;
     display: flex;flex-direction: column;justify-content: space-between
 }
 .page_5 .img2{
-    width: 45%;
+    width: 47.5%;
     height: 150px;
     float: right;margin-right: 2%;
-    margin-top: 40px;
+    margin-top: 24px;
     overflow: hidden;
 }
 .page_5 .img1 img{width: 100%;height: 48%;float: left;margin-top: 0;}
@@ -621,7 +629,7 @@
 
     float: left;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 14px;
     margin-left: 3%;
     overflow: hidden;
 }
@@ -637,7 +645,7 @@
     height: 30px;
     background: url("../img/人物介绍框.png") no-repeat;
     background-size: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 3%;
     display: flex;
     flex-wrap: nowrap;
@@ -657,7 +665,7 @@
 }
 .page_5 .img5 {
     width: 94%;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 3%;
     font-size: 14px;
     text-align: center;
