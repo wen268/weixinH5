@@ -24,19 +24,6 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 </head>
-<script type="text/javascript">
-    if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
-        var version = parseFloat(RegExp.$1);
-        if(version>2.3){
-            var phoneScale = parseInt(window.screen.width)/640;
-            document.write('<meta name="viewport" content="width=640, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
-        }else{
-            document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
-        }
-    }else{
-        document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
-    }
-</script>
 <style>
     .swiper-container {
         width: 100%;
@@ -65,7 +52,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="page page_1">
-                    <img src="img/1龄童诵经典.png" alt="">
+                    <img src="img/1龄童诵经典.png" alt="" class="logo">
                     <img src="img/1书.png" alt="">
                     <img src="img/1首届.png" alt="">
                     <img src="img/1主办单位.png" alt="">

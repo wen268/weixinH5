@@ -238,6 +238,9 @@
     transition: All 1s 0s;
 
 }
+.run .page_1 .logo{
+    animation: C_in 0.8s ease 0s 1;
+}
 .run .page_1 .y{
     animation: L_in 1.5s ease 0s 1;
 }
