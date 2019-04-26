@@ -136,13 +136,14 @@
 
 .page_1 img:nth-child(1){
     width: 40%;
-    max-height: 220px;
+    /* max-height: 220px; */
     position: absolute;
-    top: 94px;
+    top: 74px;
     left: 0;
     right: 0;
     margin: auto;
     z-index: 4;
+    flex-shrink: 0
 }
 .page_1 img:nth-child(2){
     width: 40%;
