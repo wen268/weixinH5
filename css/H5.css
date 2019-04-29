@@ -873,6 +873,10 @@
     }
 }
 
+.page_8{
+    width: 80%!important;
+}
+
 .run .page_7 .img1{animation: T_in 0.8s ease-in 0.2s 1;}
 .run .page_7 .img2{animation: C_in 1.2s ease-in 0s 1;}
 .run .page_7 .img3{animation: B_in 1.4s ease-in 0s 1;}
@@ -881,9 +885,7 @@
     z-index: 2 !important;
 }
 
-/*.page_2,.page_3,.page_4,.page_5,.page_6,.page_7{*/
-    /*display: none;*/
-/*}*/
+
 
 
 
